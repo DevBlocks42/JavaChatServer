@@ -10,3 +10,8 @@ Le fonctionnement du programme a été testé sur les systèmes d'exploitations 
 Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de joindre le serveur via le protocole TCP. Tant que l'objet `ServerSocket` n'est pas interrompu, on attend une connexion TCP sur le port 7777 (par défaut), s'il y a une connexion entrante, on accepte le nouveau client, puis on lance un `Thread` pour gérer les entrées/sorties réseaux relatives au client. On lance autant de Thread en parallèle que de clients se connectent. 
 
 Dans un premier temps, le serveur attend que le client annonce son pseudonyme, si le pseudonyme envoyé n'est pas actuellement utilisé par un autre client, on authentifie l'utilisateur, sinon, on lui notifie que le pseudonyme est déjà utilisé, puis on ferme l'objet `Socket` associé au client.
+
+Une fois authentifié, le serveur reçoit et traîte les messages reçus des clients. On distingue plusieurs formes de traitements : 
+  1) Les messages simples 
+  2) Les messages complexes (gras, souligné, italique, choix de couleur d'une partie du texte etc..) 
+  3) Les commandes (Exemple /mp NOM_UTILISATEUR MESSAGE)
