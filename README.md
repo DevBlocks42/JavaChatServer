@@ -21,5 +21,5 @@ Une fois authentifié, le serveur reçoit et traîte les messages reçus des cli
 (2) -> Les messages sont formattés i.e on transforme les balises du message en balises html (exemple : `[b][/b]` devient `<b></b>`, puis on renvoie le message à tous les clients (broadcast).
 (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
-##Manuel
+## Manuel
 
