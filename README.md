@@ -12,6 +12,14 @@ Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de
 Dans un premier temps, le serveur attend que le client annonce son pseudonyme, si le pseudonyme envoyé n'est pas actuellement utilisé par un autre client, on authentifie l'utilisateur, sinon, on lui notifie que le pseudonyme est déjà utilisé, puis on ferme l'objet `Socket` associé au client.
 
 Une fois authentifié, le serveur reçoit et traîte les messages reçus des clients. On distingue plusieurs formes de traitements : 
-  1) Les messages simples 
-  2) Les messages complexes (gras, souligné, italique, choix de couleur d'une partie du texte etc..) 
-  3) Les commandes (Exemple /mp NOM_UTILISATEUR MESSAGE)
+  (1) Les messages simples 
+  (2) Les messages complexes (gras, souligné, italique, choix de couleur d'une partie du texte etc..) 
+  (3) Les commandes (exemple /mp NOM_UTILISATEUR MESSAGE)
+
+
+(1) -> Les messages sont renvoyés à tous les clients connectés au serveur (broadcast)
+(2) -> Les messages sont formattés i.e on transforme les balises du message en balises html (exemple : `[b][/b]` devient `<b></b>`, puis on renvoie le message à tous les clients (broadcast).
+(3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
+
+##Manuel
+
