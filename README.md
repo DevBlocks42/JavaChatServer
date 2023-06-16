@@ -18,7 +18,11 @@ Une fois authentifié, le serveur reçoit et traite les messages reçus des clie
 
 
 (1) -> Les messages sont renvoyés à tous les clients connectés au serveur (broadcast)
+
+
 (2) -> Les messages sont formatés i.e on transforme les balises du message en balises html (exemple : `[b][/b]` devient `<b></b>`, puis on renvoie le message à tous les clients (broadcast).
+
+
 (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
 
