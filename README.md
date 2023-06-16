@@ -91,16 +91,16 @@ Utiliser la configuration xml suivante (pom.xml) :
 
 Lancer la création du fichier exécutable JAR :
 
-    ``` maven clean install ```
+ `maven clean install`
   
 ou
   
-  ```maven.exe clean install```
+  `maven.exe clean install`
   
 Lancer l'exécutable JAR : 
  
-    ```java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar```
+  `java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar`
   
 ou
   
-    ```java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies```
+  `java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies`
