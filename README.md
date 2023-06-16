@@ -44,54 +44,54 @@ Installer maven
     
 Utiliser la configuration xml suivante (pom.xml) :
 
-  ```
-<?xml version="1.0" encoding="UTF-8"?>
-  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-      <modelVersion>4.0.0</modelVersion>
-      <groupId>com.javaroot</groupId>
-      <artifactId>JavaChatServer</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <packaging>jar</packaging>
-      <properties>
-          <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-          <maven.compiler.source>11</maven.compiler.source>
-          <maven.compiler.target>11</maven.compiler.target>
-          <exec.mainClass>server.Main</exec.mainClass>
-      </properties>
-      <build>
-          <plugins>
-              <plugin>
-                  <artifactId>maven-assembly-plugin</artifactId>
-                  <version>2.4</version>
-                  <configuration>
-                      <descriptorRefs>
-                          <descriptorRef>jar-with-dependencies</descriptorRef>
-                      </descriptorRefs>
-                      <archive>
-                          <manifest>
-                              <mainClass>server.Main</mainClass>
-                          </manifest>
-                      </archive>
-                  </configuration>
-                  <executions>
-                      <execution>
-                          <id>make-assembly</id>
-                          <phase>package</phase>
-                          <goals>
-                              <goal>single</goal>
-                          </goals>
-                      </execution>
-                  </executions>
-              </plugin>
-          </plugins>
-      </build>
-  </project>
+    ```
+  <?xml version="1.0" encoding="UTF-8"?>
+    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>com.javaroot</groupId>
+        <artifactId>JavaChatServer</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <packaging>jar</packaging>
+        <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <maven.compiler.source>11</maven.compiler.source>
+            <maven.compiler.target>11</maven.compiler.target>
+            <exec.mainClass>server.Main</exec.mainClass>
+        </properties>
+        <build>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>2.4</version>
+                    <configuration>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                        <archive>
+                            <manifest>
+                                <mainClass>server.Main</mainClass>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>make-assembly</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </project>
 
-```
+  ```
 
 Lancer la création du fichier exécutable JAR :
 
-  ``` maven clean install ```
+    ``` maven clean install ```
   
 ou
   
@@ -99,8 +99,8 @@ ou
   
 Lancer l'exécutable JAR : 
  
-  ```java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar```
+    ```java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar```
   
 ou
   
-  ```java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies```
+    ```java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies```
