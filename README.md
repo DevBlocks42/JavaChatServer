@@ -37,7 +37,8 @@ Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de
 
       `sudo apt-get install maven`
 
-    Utiliser la configuration xml suivante (pom.xml) :
+    
+  Utiliser la configuration xml suivante (pom.xml) :
 
   ```
       <?xml version="1.0" encoding="UTF-8"?>
@@ -88,9 +89,17 @@ Lancer la création du fichier exécutable JAR :
 
   ``` maven clean install ```
   
+  ou
+  
+  ```maven.exe clean install```
+  
  Lancer l'exécutable JAR : 
  
   ```java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar```
+  
+  ou
+  
+  ```java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies```
   
   Note : Le fichier JAR généré peut s'exécuter sous windows.
 
