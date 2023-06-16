@@ -22,83 +22,38 @@ Une fois authentifié, le serveur reçoit et traite les messages reçus des clie
 (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
 Schéma
-<mxfile modified="2023-06-16T10:31:41.577Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86\_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="9ugYjuexqP56ZYy\_4sSs" version="21.4.0" type="device">
+`<mxfile modified="2023-06-16T10:31:41.577Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="9ugYjuexqP56ZYy_4sSs" version="21.4.0" type="device">`{=html}
+`<diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">`{=html}
+`<mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">`{=html}
+`<root>`{=html} `<mxCell id="0" />`{=html}
+`<mxCell id="1" parent="0" />`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-9" value="Serveur" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">`{=html}
+`<mxGeometry x="430" y="180" width="320" height="70" as="geometry" />`{=html}
+`</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-10" value="&lt;div&gt;Entrées&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Réception de &lt;br&gt;&lt;/div&gt;M&lt;sub&gt;1&lt;/sub&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">`{=html}
+`<mxGeometry x="430" y="250" width="160" height="200" as="geometry" />`{=html}
+`</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-27" value="Client A + M&lt;sub&gt;1&lt;/sub&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-12" target="s5DcjVivYv2rXD6XcJxH-13">`{=html}
+`<mxGeometry relative="1" as="geometry" />`{=html} `</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-28" value="Client A + M&lt;sub&gt;1&lt;/sub&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-12" target="s5DcjVivYv2rXD6XcJxH-24">`{=html}
+`<mxGeometry relative="1" as="geometry" />`{=html} `</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-12" value="&lt;div&gt;Sorties&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Diffusion de &lt;br&gt;&lt;/div&gt;M&lt;sub&gt;1&lt;/sub&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">`{=html}
+`<mxGeometry x="590" y="250" width="160" height="200" as="geometry" />`{=html}
+`</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-13" target="s5DcjVivYv2rXD6XcJxH-10">`{=html}
+`<mxGeometry relative="1" as="geometry" />`{=html} `</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-26" value="M&lt;sub&gt;1&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s5DcjVivYv2rXD6XcJxH-25">`{=html}
+`<mxGeometry relative="1" as="geometry">`{=html}
+`<mxPoint as="offset" />`{=html} `</mxGeometry>`{=html}
+`</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-13" value="Client A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">`{=html}
+`<mxGeometry x="480" y="740" width="60" height="60" as="geometry" />`{=html}
+`</mxCell>`{=html}
+`<mxCell id="s5DcjVivYv2rXD6XcJxH-24" value="Client B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">`{=html}
+`<mxGeometry x="640" y="740" width="60" height="60" as="geometry" />`{=html}
+`</mxCell>`{=html} `</root>`{=html} `</mxGraphModel>`{=html}
+`</diagram>`{=html} `</mxfile>`{=html}
 
-<diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-
-<mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-
-<root>
-
-<mxCell id="0" />
-
-<mxCell id="1" parent="0" />
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-9" value="Serveur" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-
-<mxGeometry x="430" y="180" width="320" height="70" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-10" value="&lt;div&gt;Entrées&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Réception de &lt;br&gt;&lt;/div&gt;M&lt;sub&gt;1&lt;/sub&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-
-<mxGeometry x="430" y="250" width="160" height="200" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-27" value="Client A + M&lt;sub&gt;1&lt;/sub&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-12" target="s5DcjVivYv2rXD6XcJxH-13">
-
-<mxGeometry relative="1" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-28" value="Client A + M&lt;sub&gt;1&lt;/sub&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-12" target="s5DcjVivYv2rXD6XcJxH-24">
-
-<mxGeometry relative="1" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-12" value="&lt;div&gt;Sorties&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Diffusion de &lt;br&gt;&lt;/div&gt;M&lt;sub&gt;1&lt;/sub&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-
-<mxGeometry x="590" y="250" width="160" height="200" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s5DcjVivYv2rXD6XcJxH-13" target="s5DcjVivYv2rXD6XcJxH-10">
-
-<mxGeometry relative="1" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-26" value="M&lt;sub&gt;1&lt;/sub&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s5DcjVivYv2rXD6XcJxH-25">
-
-<mxGeometry relative="1" as="geometry">
-
-<mxPoint as="offset" />
-
-</mxGeometry>
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-13" value="Client A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-
-<mxGeometry x="480" y="740" width="60" height="60" as="geometry" />
-
-</mxCell>
-
-<mxCell id="s5DcjVivYv2rXD6XcJxH-24" value="Client B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-
-<mxGeometry x="640" y="740" width="60" height="60" as="geometry" />
-
-</mxCell>
-
-</root>
-
-</mxGraphModel>
-
-</diagram>
-
-</mxfile>
 
 
 
