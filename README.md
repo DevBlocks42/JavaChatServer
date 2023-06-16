@@ -22,7 +22,9 @@ Une fois authentifié, le serveur reçoit et traite les messages reçus des clie
 (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
 
-![Diagramme_Client_Serveur](https://github.com/DevBlocks42/JavaChatServer/assets/136115859/13126ae9-5daf-423e-805a-dbaa5f8ad07e)
+<div style = 'text-align:center;'>
+  ![Diagramme_Client_Serveur](https://github.com/DevBlocks42/JavaChatServer/assets/136115859/13126ae9-5daf-423e-805a-dbaa5f8ad07e)
+</div>
 
 
 ## Manuel
