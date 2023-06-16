@@ -21,9 +21,9 @@ Une fois authentifié, le serveur reçoit et traite les messages reçus des clie
 (2) -> Les messages sont formatés i.e on transforme les balises du message en balises html (exemple : `[b][/b]` devient `<b></b>`, puis on renvoie le message à tous les clients (broadcast).
 (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
-<div align = 'center'>
+
 ![Diagramme_Client_Serveur](https://github.com/DevBlocks42/JavaChatServer/assets/136115859/13126ae9-5daf-423e-805a-dbaa5f8ad07e)
-</div>
+
 
 ## Manuel
 
