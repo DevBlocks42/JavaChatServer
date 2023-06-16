@@ -91,6 +91,8 @@ Lancer la création du fichier exécutable JAR :
  Lancer l'exécutable JAR : 
  
   ```java -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar```
+  
+  Note : Le fichier JAR généré peut s'exécuter sous windows.
 
   
 
