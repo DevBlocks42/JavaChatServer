@@ -32,8 +32,8 @@ Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de
 ## Installation 
 
   Linux (Debian/Ubuntu) :
-
-    Installer maven
+  
+  Installer maven
 
       `sudo apt-get install maven`
 
