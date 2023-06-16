@@ -39,7 +39,7 @@ Installer maven
   
 - Windows : 
 
-```https://maven.apache.org/download.cgi```
+  ```https://maven.apache.org/download.cgi```
 
     
 Utiliser la configuration xml suivante (pom.xml) :
