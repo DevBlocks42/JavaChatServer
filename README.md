@@ -30,12 +30,13 @@ Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de
 
 
 ## Installation 
+ 
+Installer maven
 
-  Linux (Debian/Ubuntu) :
-  
-  Installer maven
-
-      `sudo apt-get install maven`
+- Linux (debian/ubuntu) :
+  ```sudo apt-get install maven```
+- Windows : 
+```https://maven.apache.org/download.cgi```
 
     
   Utiliser la configuration xml suivante (pom.xml) :
@@ -100,8 +101,3 @@ Lancer la création du fichier exécutable JAR :
   ou
   
   ```java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies```
-  
-  Note : Le fichier JAR généré peut s'exécuter sous windows.
-
-  
-
