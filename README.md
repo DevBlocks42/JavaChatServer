@@ -34,12 +34,15 @@ Dans un premier temps, le serveur attend que le client annonce son pseudonyme, s
 Installer maven
 
 - Linux (debian/ubuntu) :
+
   ```sudo apt-get install maven```
+  
 - Windows : 
+
 ```https://maven.apache.org/download.cgi```
 
     
-  Utiliser la configuration xml suivante (pom.xml) :
+Utiliser la configuration xml suivante (pom.xml) :
 
   ```
 <?xml version="1.0" encoding="UTF-8"?>
