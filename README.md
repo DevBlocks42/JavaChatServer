@@ -25,7 +25,8 @@ Dans un premier temps, le serveur attend que le client annonce son pseudonyme, s
 
   (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
- 
+## Modèle de communication client-serveur
+
 ![Diagramme_Client_Serveur](https://github.com/DevBlocks42/JavaChatServer/assets/136115859/13126ae9-5daf-423e-805a-dbaa5f8ad07e)
 
 
@@ -104,3 +105,7 @@ Lancer l'exécutable JAR :
 ou
   
     java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+## Manuel d'utilisation
+
+
