@@ -23,6 +23,7 @@ public class Main
 {
     public static void main(String[] args) 
     {
+        int port = 7777;
         final ServerSocket serverSocket;
         Socket clientSocket;
         final Scanner scanner = new Scanner(System.in, "UTF-8");
@@ -37,7 +38,7 @@ public class Main
             commandThread = new Thread(commandManager);
             commandThread.start(); //Lancement du thread permettant de gérer les commandes côté serveur (via l'entrée standard).
             System.out.println("[*] Démarrage du serveur.\n[*] En attente de nouvelles connexions.");
-            serverSocket = new ServerSocket(7777);
+            serverSocket = new ServerSocket(port);
             while(!serverSocket.isClosed())
             {
                 try
