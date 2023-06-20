@@ -103,4 +103,4 @@ Lancer l'exécutable JAR :
   
 ou
   
-    java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies
+    java.exe -jar target/JavaChatServer-1.0-SNAPSHOT-jar-with-dependencies.jar
