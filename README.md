@@ -119,16 +119,16 @@ Modifier le fichier Main.java à la ligne 26 -> `int port = XXXX;`
 Recompiler le programme à l'aide de maven, cf Installation.
 
 Commandes : 
-
-quit -> ferme le serveur et déconnecte tous les clients.
-
-time -> Affiche l'horloge du serveur.
-
-kick NOM_UTILISATEUR -> Force la déconnexion de l'utilisateur de pseudo NOM_UTILISATEUR
-
-broadcast MESSAGE_À_DIFFUSER -> Envoie le message en paramètre à tous les clients authentifiés.
-
-mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoit un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
+  
+    quit -> ferme le serveur et déconnecte tous les clients.
+    
+    time -> Affiche l'horloge du serveur.
+    
+    kick NOM_UTILISATEUR -> Force la déconnexion de l'utilisateur de pseudo NOM_UTILISATEUR
+    
+    broadcast MESSAGE_À_DIFFUSER -> Envoie le message en paramètre à tous les clients authentifiés.
+    
+    mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoit un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
 
 
 
