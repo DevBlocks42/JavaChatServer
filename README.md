@@ -131,6 +131,6 @@ Commandes Serveur :
     mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoit un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
 
 
-
+Note : On différencie les commandes du serveur et des clients par l'utilisation du '/', en effet, lorsqu'on souhaite exécuter une commande serveur, l'utilisation du '/' est facultative.
 
 
