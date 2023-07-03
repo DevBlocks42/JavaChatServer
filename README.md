@@ -128,5 +128,5 @@ Commandes Serveur :
     
     broadcast MESSAGE_À_DIFFUSER -> Envoie le message en paramètre à tous les clients authentifiés.
     
-    mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoit un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
+    mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoie un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
 
