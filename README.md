@@ -118,7 +118,7 @@ Changer le port associé au serveur :
 Modifier le fichier Main.java à la ligne 26 -> `int port = XXXX;`
 Recompiler le programme à l'aide de maven, cf Installation.
 
-Commandes : 
+Commandes Serveur : 
   
     quit -> ferme le serveur et déconnecte tous les clients.
     
