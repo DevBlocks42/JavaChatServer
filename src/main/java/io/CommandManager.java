@@ -56,6 +56,13 @@ public class CommandManager implements Runnable
             else if(command.startsWith("broadcast"))
             {
                 String message = command.split(" ")[1] + "\n";
+                if(message != null) 
+                {
+                    for(int i = 2; i < command.split(" ").length; i++)
+                    {
+                        message += command.split(" ")[i] + "";
+                    }
+                }
                 for(Client c : clients)
                 {
                     c.getClientOutput().write("[SERVEUR] " + message);
