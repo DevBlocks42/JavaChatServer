@@ -11,7 +11,9 @@ Une fois lancé, le programme créer un `ServerSocket` permettant aux clients de
 
 Dans un premier temps, le serveur attend que le client annonce son pseudonyme, si le pseudonyme envoyé n'est pas actuellement utilisé par un autre client, on authentifie l'utilisateur, sinon, on lui notifie que le pseudonyme est déjà utilisé, puis on ferme l'objet `Socket` associé au client.
 
-  Une fois authentifié, le serveur reçoit et traite les messages reçus des clients. On distingue plusieurs formes de traitements : 
+  Une fois authentifié, le serveur reçoit et traite les messages reçus des clients. 
+  On distingue plusieurs formes de traitements : 
+  
     - (1) Les messages simples 
     - (2) Les messages complexes (gras, souligné, italique, choix de couleur d'une partie du texte etc..) 
     - (3) Les commandes (exemple /mp NOM_UTILISATEUR MESSAGE)
@@ -24,6 +26,9 @@ Dans un premier temps, le serveur attend que le client annonce son pseudonyme, s
 
 
   (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
+
+Par ailleurs, un thread est lancé en parralèlle pour gérer les commandes serveur à l'aide d'un Scanner pour lire l'entrée standard.
+
 
 ## Modèle de communication client-serveur
 
@@ -115,7 +120,17 @@ Recompiler le programme à l'aide de maven, cf Installation.
 
 Commandes : 
 
-/quit -> ferme le serveur et déconnecte tous les clients.
+quit -> ferme le serveur et déconnecte tous les clients.
+
+time -> Affiche l'horloge du serveur.
+
+kick NOM_UTILISATEUR -> Force la déconnexion de l'utilisateur de pseudo NOM_UTILISATEUR
+
+broadcast MESSAGE_À_DIFFUSER -> Envoie le message en paramètre à tous les clients authentifiés.
+
+mp NOM_UTILISATEUR MESSAGE_À_ENVOYER -> Envoit un message privé à l'utilisateur de pseudonyme NOM_UTILISATEUR
+
+
 
 
 
