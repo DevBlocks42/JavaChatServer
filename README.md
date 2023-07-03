@@ -27,7 +27,7 @@ Dans un premier temps, le serveur attend que le client annonce son pseudonyme, s
 
   (3) -> Les commandes commencent obligatoirement par le caractère '/', le comportement du programme s'adapte en fonction de la commande reçue.
 
-Par ailleurs, un thread est lancé en parralèlle pour gérer les commandes serveur à l'aide d'un Scanner pour lire l'entrée standard.
+Par ailleurs, un thread est lancé en parallèle pour gérer les commandes serveur à l'aide d'un Scanner pour lire l'entrée standard dans l'interface de commande.
 
 
 ## Modèle de communication client-serveur
